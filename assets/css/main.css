@@ -17,6 +17,16 @@ h1 {
 	margin-top: 1.5em;
 	text-align: center;
 }
+
+h1::after {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 30%;
+	padding-top: 7px;
+	border-bottom: 2px solid #000000;
+}
+
 .container {
 	text-align: center;
 	width: 650px;
@@ -24,6 +34,12 @@ h1 {
 	margin-left: 51%;
 	transform: translate(-50%, -50%);
 	padding: 10px;
+	border-left: 5px solid #000;
+	border-right: 5px solid #000;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
 }
 .quote {
 	text-align: left;
